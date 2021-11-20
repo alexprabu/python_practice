@@ -1,0 +1,3 @@
+START = 0
+END = 100
+SKIP_RANGE = range(20, 50)
