@@ -113,9 +113,97 @@ v = 2
 func()
 print(v)
 
-
+# 20
 a = 5
 b = 5
 print(a is b)
 
+# 21
+val1 = 5
+print('Id of val1: ', id(val1))
+val1 = val1 + 1
+print('Id of val1: ', id(val1))
 
+print('Id of 6: ', id(6))
+# Output
+# Id of val1:  2244296665520
+# Id of val1:  2244296665552
+# Id of 6:  2244296665552
+
+
+# 22
+d1 = {"John": 40, "Peter": 45}
+d2 = {"John": 466, "Peter": 45}
+print(d1 == d2)
+
+d1 = {"John": 466, "Peter": 45}
+d2 = {"John": 466, "Peter": 45}
+print(d1 == d2)
+
+# print(d1 > d2)  # will throw -> TypeError: '>' not supported between instances of 'dict' and 'dict'
+
+# 23
+dictionary = {1: "SIT", 2: "Dept", 3: "IT"}
+print("test1: ", "SIT" in dictionary)
+print("test2: ", 1 in dictionary)
+
+# 24
+print(dictionary)
+del dictionary[3]  # deleting element of key 3
+print(dictionary)
+del dictionary
+# print(dictionary) #will throw error
+
+# 25
+a = "hello"
+b = "hello"
+print(a is b)
+print(a == b)
+print(id(a), id(b))
+
+a = 'hello world'
+b = 'hello world'
+print(a is b)
+print(a == b)
+print(id(a), id(b))
+
+a = ["hi", "hello"]
+b = ["hi", "hello"]
+print(a is b)
+print(a == b)
+print(id(a), id(b))
+
+# 26
+str = ''
+print(bool(str))  # will give False, if we give a space or value it will return True
+
+# 27
+a = {i: i * i for i in range(6)}
+print(a)  # dict
+
+a = {i * i for i in range(6)}
+print(a)  # set
+
+a = (i * i for i in range(6)) #will give tuple, generator object, we have to loop it to get
+print(a)  # tuple generator
+for item in a:
+    print(item)
+
+# 28
+c = 5
+d = 2
+print(c // d)
+
+# 29
+v = 2
+w = 3
+x = 4
+y = 19
+z = 23
+a = v ** v // x % x + y % w * z // x
+print("a: ", a)
+
+b = v ** (v // x) % x + y % (w * z) // x
+print("b: ", b)
+
+print(1%4) #divide panna mudinja it will return reminder otherwise athey number return pannum
