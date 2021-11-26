@@ -184,7 +184,7 @@ print(a)  # dict
 a = {i * i for i in range(6)}
 print(a)  # set
 
-a = (i * i for i in range(6)) #will give tuple, generator object, we have to loop it to get
+a = (i * i for i in range(6))  # will give tuple, generator object, we have to loop it to get
 print(a)  # tuple generator
 for item in a:
     print(item)
@@ -206,4 +206,35 @@ print("a: ", a)
 b = v ** (v // x) % x + y % (w * z) // x
 print("b: ", b)
 
-print(1%4) #divide panna mudinja it will return reminder otherwise athey number return pannum
+print(1 % 4)  # divide panna mudinja, it will return reminder otherwise athey number return pannum
+
+# 30
+print('\n\n')
+
+x = "I Love Python!"
+y = "I Love Python!"
+
+print(x == y)
+print(x is y)
+print(id(x) == id(y))
+
+print(id(x))
+print(id(y))
+
+# 31
+# x1 = y1 = [1, 2]  # try uncomment this to get different results (same id for both x1 and y1, appending in x1 will reflect in y1)
+
+x1 = [1,2]
+y1 = [1,2]
+
+
+print(x is y)
+print(id(x1))
+print(id(y1))
+
+x1.append(3)
+print(x1)
+print(y1)
+
+print(id(x1))
+print(id(y1))
