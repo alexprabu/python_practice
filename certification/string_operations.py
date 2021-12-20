@@ -1,2 +1,2 @@
-from platform import python_version
-print(python_version())
+import numpy as np
+from numpy import genfromtxt

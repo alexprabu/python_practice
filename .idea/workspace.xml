@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f5d407-77b1-4191-a510-3f5624bcd129" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/certification/Test Notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certification/String Operations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/certification/String Operations.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/certification/string_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/certification/string_operations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
